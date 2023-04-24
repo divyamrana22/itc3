@@ -1,0 +1,16 @@
+a = 56
+b = 10
+
+c = a & b
+print("a & b =", c)
+
+d = a | b
+print("a | b =", d)
+
+e = a ^ b
+print("a ^ b =", e)
+
+f = a << 2
+g = b << 2
+print("Left shift a by 2 bits:", f)
+print("Left shift b by 2 bits:", g)
